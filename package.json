@@ -1,0 +1,16 @@
+{
+  "name": "node-server",
+  "version": "0.0.1",
+  "description": "Basic ts node and express server",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc server.ts && node server.js"
+  },
+  "author": "efelipe402",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "express": "^4.17.1",
+    "typescript": "^3.8.3"
+  }
+}
